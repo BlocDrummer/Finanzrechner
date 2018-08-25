@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etAktuellerKontostand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="500" />
+
+    <TextView
+        android:id="@+id/tvWahrerKontostand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wahrer Kontostand" />
+
+    <EditText
+        android:id="@+id/etFixkostenname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Fixkostenname" />
+
+    <EditText
+        android:id="@+id/etFixkosten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btnFixkostenHinzufuegen"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:text="Fixkosten hinzufügen" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvAlleFixkosten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>
