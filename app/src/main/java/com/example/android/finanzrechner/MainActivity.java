@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String fixkostenName = etFixkostenName.getText().toString();
                 double fixkosten = Double.parseDouble(etFixkosten.getText().toString());
-                fixkostenMap.put(fixkostenName, fixkosten);
+                fixkostenMap.put(fixkostenName, fixkosten); //blablabla
                 tvAlleFixkosten.append(fixkostenName + ": " + fixkosten + "\n");
             }
         });
